@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Card } from './components'
 
-import axios from "axios";
+//import axios from "axios";
 import Search from './components/search';
 import { WEATHER_API_KEY, WEATHER_API_URL } from './api';
 
@@ -30,7 +30,7 @@ const App = () => {
         setForecast({ city: searchData.label, ...forcastResponse });
       })
       .catch(console.log);
-      console.log(currentWeather)
+      
 
   }
 

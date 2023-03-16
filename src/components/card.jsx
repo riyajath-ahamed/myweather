@@ -1,7 +1,7 @@
 import React from "react";
 
 const Card = ({ data }) => {
-  const icon = `s${data.weather[0].icon}`;
+  
 
   return (
     <div>

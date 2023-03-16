@@ -36,7 +36,8 @@ const App = () => {
 
   return (
     <div className='absolute inset-0 bg-white flex items-center justify-center p-4 '>
-      
+
+      <video src='https://lofico.nyc3.digitaloceanspaces.com/scenes/cafe/outside-rain.mp4' autoPlay loop muted className='absolute inset-0 w-full h-full object-cover'/>
       
       
      

@@ -36,7 +36,8 @@ const App = () => {
     <div>
     <div className='absolute inset-0 bg-white flex items-center justify-center p-4 '>
 
-      <video src='https://lofico.nyc3.digitaloceanspaces.com/scenes/cafe/outside-rain.mp4' autoPlay loop muted className='absolute inset-0 w-full h-full object-cover -z-0'/>
+      <video src='https://lofico.nyc3.digitaloceanspaces.com/scenes/cafe/outside-rain.mp4' 
+      autoPlay loop muted className='absolute inset-0 w-full h-full object-cover -z-0'/>
       
       
      
@@ -51,9 +52,9 @@ const App = () => {
       
       
     </div>
-    <footer class="items-center justify-center bg-cardOverlay rounded-lg absolute inset-x-0 bottom-0 z-10">
-    <div class="font-medium text-base ">
-            © 2023. All rights reserved - Made with<span className='inline-block h-4'>{heart}</span>by<a href='https://github.com/riyajath-ahamed'> Riyajath Ahamed</a>
+    <footer class="flex items-center justify-center bg-cardOverlay rounded-lg absolute inset-x-0 bottom-0 z-10">
+    <div class="font-medium font-sans text-sm ">
+            © 2023. All rights reserved -<span className='block lg:inline-block'> Made with<span className='inline-block h-4'>{heart}</span> by<a href='https://github.com/riyajath-ahamed'> Riyajath Ahamed</a></span>
 
           </div>
       </footer>
